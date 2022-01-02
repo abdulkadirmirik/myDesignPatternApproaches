@@ -13,42 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\GOF Design Patterns">
-      <UniqueIdentifier>{c2c8dabb-5269-47de-9518-6d48d101167f}</UniqueIdentifier>
+    <Filter Include="GoF">
+      <UniqueIdentifier>{228f8e9e-bf61-473c-8757-787d71b1245d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Creational">
-      <UniqueIdentifier>{048a7518-91e8-4072-bdce-3a363398ef8e}</UniqueIdentifier>
+    <Filter Include="GoF\Structural">
+      <UniqueIdentifier>{b2254a41-3132-4c0f-8a90-9ee704e949ad}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Creational\Singleton">
-      <UniqueIdentifier>{1d8adfdc-16ee-4bd8-b686-e9505c531ba3}</UniqueIdentifier>
+    <Filter Include="GoF\Behavioral">
+      <UniqueIdentifier>{11e5a51a-7f0a-4b30-aef0-ed14dadbfb06}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Creational\Singleton\Header Files">
-      <UniqueIdentifier>{1a023084-ec68-4bd3-ac63-f718623822e4}</UniqueIdentifier>
+    <Filter Include="GoF\Creational">
+      <UniqueIdentifier>{c0e9743c-c932-4af0-b31e-710f71ee58e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Creational\Singleton\Source Files">
-      <UniqueIdentifier>{0a5c4e14-8c68-4166-8a9d-4ae4acbeb442}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Behavioral">
-      <UniqueIdentifier>{78d94493-2885-4dd2-902f-565c8ef28f1a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\GOF Design Patterns\Structural">
-      <UniqueIdentifier>{2de4f838-f1b3-4654-9097-0c23c40a92b6}</UniqueIdentifier>
+    <Filter Include="GoF\Creational\Singleton">
+      <UniqueIdentifier>{e3130a6e-576f-4a97-ae52-4ecd6b1e0a0c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DesignPatterns.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SingletonImplementer.cpp">
-      <Filter>Header Files\GOF Design Patterns\Creational\Singleton\Source Files</Filter>
+    <ClCompile Include="GOFDesignPatterns\Creational\Singleton\SingletonImplementer.cpp">
+      <Filter>GoF\Creational\Singleton</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h">
-      <Filter>Header Files\GOF Design Patterns\Creational\Singleton\Header Files</Filter>
+    <ClInclude Include="GOFDesignPatterns\Creational\Singleton\Singleton.h">
+      <Filter>GoF\Creational\Singleton</Filter>
     </ClInclude>
-    <ClInclude Include="SingletonImplementer.h">
-      <Filter>Header Files\GOF Design Patterns\Creational\Singleton\Header Files</Filter>
+    <ClInclude Include="GOFDesignPatterns\Creational\Singleton\SingletonImplementer.h">
+      <Filter>GoF\Creational\Singleton</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

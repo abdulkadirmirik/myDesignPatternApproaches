@@ -140,11 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DesignPatterns.cpp" />
-    <ClCompile Include="SingletonImplementer.cpp" />
+    <ClCompile Include="GOFDesignPatterns\Creational\Singleton\SingletonImplementer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h" />
-    <ClInclude Include="SingletonImplementer.h" />
+    <ClInclude Include="GOFDesignPatterns\Creational\Singleton\Singleton.h" />
+    <ClInclude Include="GOFDesignPatterns\Creational\Singleton\SingletonImplementer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
