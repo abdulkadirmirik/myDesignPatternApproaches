@@ -1,0 +1,4 @@
+# myDesignPatternApproaches
+Thank you for interesting about my design pattern approaches project. That branch contains real life design pattern examples which created with Modern C++ (11 and 14) programming language which used in real projects. You would see several design pattern in that project from GoF (1995) and POA (2000). GOF and POA are two different book contains various design pattern resources which accepted and respected by all software development communities of the world.
+Lets we talk about GoF and POA books.GoF known as Gang of Four is a group of four, consisting of the authors (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) of the "Design Patterns - Elements of Reusable Object-Oriented Software" book. That book handled 23 design pattern under the 3 different header as structural, behavioral, creational. POA also known as "Pattern Oriented Architecture" is a more actual source which focused more concurrency topics.
+
